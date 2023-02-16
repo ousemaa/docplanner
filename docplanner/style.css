@@ -1,0 +1,326 @@
+body{
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.navbar {
+    position: fixed;
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    z-index:5;
+    background-color:white;
+  }
+  
+  
+  .Logo {
+    display:flex;
+    align-items:center;
+    align-content:center;
+    position: relative;
+  }
+  
+  .navbar2 {
+    display:flex;
+    align-items:center;
+    align-content:center;
+    position: relative;
+  }
+  
+  .DocplannerLogo {
+      width: 268px;
+      height: 33px;
+  }
+  
+  .nav1 {
+      position: relative;
+      float: right;
+      display:flex;
+  }
+  
+  .nav2 {
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+    font-size:15px;
+  }
+  
+  .About{
+    text-decoration:none;
+    color: #00b39b;
+    cursor:pointer;
+  }
+  
+  .Career{
+    color: #ababab;
+      display: block;
+      text-decoration: none;
+      padding:0 2em;
+    cursor:pointer;
+  }
+  
+  .Departments{
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    cursor:pointer;
+  }
+  
+  .Career:hover{
+    color: #00b39b;
+  }
+  
+  .Departments:hover{
+    color: #00b39b;
+  }
+  
+  .div-dropdown{
+      display: none;
+      padding-top: 10px;
+      position: absolute;
+      width: 220px;
+      margin-left: -100px;
+      background: #fff;
+      box-shadow: 0 5px 10px 0 #d3cfc9;
+      z-index: 1;
+  }
+  
+  .div-dropdown ul{
+    list-style:none;
+    width:100%;
+  }
+  
+  .div-dropdown a{
+    text-decoration:none;
+        color: #ababab;
+      display: block;
+      padding: .6em;
+    position:relative;
+    right:40px;
+  }
+  
+  .div-dropdown a:hover{
+    color: #00b39b;
+    background-color:#efefef;
+  }
+  
+  li:hover .div-dropdown{
+    display:block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .section1 img{
+    margin-left: 700px;
+      margin-top: 100px;
+      margin-right: 30px;
+      text-align: center;
+    }
+    .section1 h3{
+      text-align: center;
+      margin-left: 40px;
+      color: #00b39b;
+      font-size: 35px;
+    }
+    .section2{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .section2 p{
+        margin: 60px 0;
+        line-height: 1.7;
+        font-weight: 400;
+      }
+
+
+
+
+
+      .section3{
+   
+        display: flex;
+        justify-content: space-around;
+        margin-left: 170px;
+        margin-right: 170px;
+        
+       
+      }
+    
+      .firstdiv{
+        width: 240px;
+        background: #00b39b;
+        color: #fff;
+        text-shadow: none;
+        border-radius: 10px;
+        height: 300px;
+        padding: 2em 2em 0;
+        transition: all .2s ease 0s;
+    
+      }
+    
+    
+      .scddiv{
+        background: #3d83df;
+        color: #fff;
+        text-shadow: none;
+        border-radius: 10px;
+        height: 300px;
+        padding: 2em 2em 0;
+        width: 240px;
+      }
+      
+      .thirddiv{
+        background: #1b2734;;
+        color: #fff;
+        text-shadow: none;
+        border-radius: 10px;
+        height: 300px;
+        padding: 2em 2em 0;
+        width: 240px;
+      }
+      .firstdiv:hover,
+.scddiv:hover,
+.thirddiv:hover {
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.8);
+  background-color: rgba(134, 134, 134, 0.301); 
+
+}
+
+
+
+
+
+
+
+.container1 {
+  position:relative;
+  display:flex;
+  margin: 2.5rem auto 3.125rem;
+    max-width: 1015px;
+  top:200px;
+  padding:0px;
+}
+
+.container1 h1{
+      float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    font-size: 1.8rem;
+    color: #00b39b;
+  padding:0px;
+  margin:0px;
+}
+.brands {
+  font-size: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.brands li{
+display:inline-block;
+}
+
+.brands a path {
+  fill: hsla(0,0%,67%,.7);
+}
+
+.brands a:hover path{
+  fill: hsla(172,100%,35.1%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    border-top: 1px solid #eef2f2;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    padding: 1em 0;
+  position:relative;
+  top:150px;
+}
+
+.footer2 {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer2:after {
+        clear: both;
+}
+
+.footer2:after, .footer2:before {
+        content: "";
+        display: table;
+}
+
+.footer p {
+    margin-bottom: .4em;
+}
+
+p {
+    margin: 1.6em 0;
+    display: block;
+}
+
+.footer2 a{
+  text-decoration:none;
+  color: #3d83df;
+}
+
+.footer2 a:hover{
+  text-decoration:underline;
+}
